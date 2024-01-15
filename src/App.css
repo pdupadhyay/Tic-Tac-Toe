@@ -1,0 +1,69 @@
+.App {
+  color: white;
+}
+
+h1{
+  font-family: 'Courier New', Courier, monospace;
+  filter: drop-shadow(5px 5px 10px white);
+  font-size: 55px;
+  margin: 30px;
+  text-align: center;
+}
+
+.board{
+  display: grid;
+  place-content: center;
+  justify-items: center;
+}
+
+.status{
+  margin-bottom:10px;
+  font-size: 20px;
+  height: 70px;
+  width: 180px;
+  border-radius: 60%;
+  filter: drop-shadow(0 0 5px white);
+}
+
+.game-board{
+  padding: 10px;
+  text-align: center;
+}
+
+.game-info{
+  margin: 10px 10px 10px -40px;
+  display: grid;
+}
+
+ol{
+  text-align: center;
+  list-style-position: inside;
+}
+
+li{
+  padding: 1px;
+}
+
+.historyButton{
+  border-radius: 10%;
+  background-color: white;
+}
+
+.square{
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 34px;
+  text-align: center;
+  width: 34px;
+}
+
+.highlighted{
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 34px;
+  text-align: center;
+  width: 34px;
+  color: red;
+}
